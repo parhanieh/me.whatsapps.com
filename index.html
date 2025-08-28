@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulasi Video Call</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Start Call Layer -->
+  <div id="start-screen">
+    <button id="startCallBtn">Start Call</button>
+  </div>
+
+  <!-- Incoming Call Screen -->
+  <div id="incoming-call" class="hidden">
+    <p>Incoming Video Call...</p>
+    <button id="acceptBtn">Accept</button>
+    <button id="declineBtn">Decline</button>
+  </div>
+
+  <!-- Video Call Screen -->
+  <div id="video-call" class="hidden">
+    <p>Video Call Berjalan...</p>
+    <button id="endCallBtn">End Call</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
